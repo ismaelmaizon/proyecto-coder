@@ -85,8 +85,12 @@ ul {
     border-radius: 20px;
     box-shadow: 0 25px 50px 12px rgba(0,0,5); /*incertar sombra acepta 5 valores "sombra X", "sombra Y" , difuminacion, ancho de la sombra, color*/
 
+    transition: transform 0.3s;
 }
 
+.card:hover {
+    transform: translateY(-15px);
+}
 
 .card__header {
     position: relative;
