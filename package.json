@@ -1,0 +1,22 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "proyecto clase coder",
+  "main": "index.js",
+  "scripts": {
+    "build": " node-sass --include-path sass ./sass/index.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismaelmaizon/proyecto-coder.git"
+  },
+  "author": "Ismael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismaelmaizon/proyecto-coder/issues"
+  },
+  "homepage": "https://github.com/ismaelmaizon/proyecto-coder#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
